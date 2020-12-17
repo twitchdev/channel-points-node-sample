@@ -1,4 +1,4 @@
-# Channel Points Sample Code for NodeJS
+# Sample Code for Channel Points using NodeJS
 
 This is a basic sample that aims to show how to use the new [Channel Points APIs](https://blog.twitch.tv/en/2020/11/13/twitch-developer-day-2020-introducing-the-channel-points-api-eventsub-and-more/), including creating rewards, getting rewards, getting redemptions, and updating the fulfillment status of each reward. 
 
