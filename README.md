@@ -25,10 +25,10 @@ To use this sample, you will need to do three things:
 
 ### Getting a Token
 
-The first is to install the Twitch CLI [here](#) which will enable you to generate a token quickly using the following command: 
+The first is to install the Twitch CLI [here](https://github.com/twitchdev/twitch-cli) which will enable you to generate a token quickly using the following command: 
 
 ```sh
-twitch-cli token -u -s "channel:manage:redemptions user:edit:follows"
+twitch token -u -s "channel:manage:redemptions user:edit:follows"
 ```
 
 Alternatively, you can generate a token using the normal OAuth 2.0 flow as described in the [Authentication Docs](https://dev.twitch.tv/docs/authentication). The token requires two scopes: 
