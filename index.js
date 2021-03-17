@@ -34,7 +34,7 @@ const validateToken = async () => {
         return false
     }
 
-    if (r.scopes.indexOf("channel:manage:redemptions") == -1 || r.scopes.indexOf("user:edit:follows") == -1) {
+    if(r.scopes.indexOf("channel:manage:redemptions") == -1 || r.scopes.indexOf("user:edit:follows") == -1 || !r.hasOwnProperty('user_id')){
         console.log('Invalid scopes. Please get a new token using twitch token -u -s "channel:manage:redemptions user:edit:follows"')
         return false
     }
